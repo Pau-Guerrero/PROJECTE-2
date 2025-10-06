@@ -16,3 +16,8 @@ L’objectiu és **triar un SAI** que protegeixi els equips davant talls de llum
 
 Aprendre a seleccionar un SAI segons les necessitats i el pressupost de l’empresa.
 
+### Solució
+
+La solució està en [Solució.md](Solució.md)
+
+[Tornar a la pàgina principal](../README.md)
