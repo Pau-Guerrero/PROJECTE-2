@@ -30,4 +30,4 @@ Connectarem al SAI els quatre ordinadors, quatre monitors, la impressora i el ro
 ## Justificació de la selecció final
 
 He triat el **Eaton 9SX 3000i** perquè ofereix més eficiència i protecció avançada, assegurant que els equips estiguin millor protegits davant talls de llum i problemes elèctrics.
-
+![Eleccio del SAI final](img/SAI-final.png)
