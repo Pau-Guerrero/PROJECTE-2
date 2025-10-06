@@ -1,5 +1,8 @@
 # Projecte EverPia
 
+- [Tasca2](Tasca2)
+- [Tasca3](Tasca3)
+
 ## Introducció
 
 En aquest projecte serem part d’**EverPia**, una consultora informàtica que ajuda empreses a resoldre problemes tecnològics.  
