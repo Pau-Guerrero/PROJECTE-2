@@ -27,6 +27,6 @@ Amb aquestes tasques desenvoluparem competències en:
 
 ### Solució
 
-La solució està en [Solució.md](Solució.md)
+La solució està en [Solucio.md](Solucio.md)
 
 [Tornar a la pàgina principal](../README.md)
