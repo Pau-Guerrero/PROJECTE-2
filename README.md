@@ -8,7 +8,7 @@
 En aquest projecte serem part d’**EverPia**, una consultora informàtica que ajuda empreses a resoldre problemes tecnològics.  
 Com a **consultors júnior**, haurem d’aprendre a treballar amb organització, col·laboració i responsabilitat.
 
-[Logo everpia](logo-erverpia.png)
+[Logo everpia](img/logo-erverpia.png)
 
 ---
 
