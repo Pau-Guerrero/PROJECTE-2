@@ -18,6 +18,6 @@ Aprendre a seleccionar un SAI segons les necessitats i el pressupost de l’empr
 
 ### Solució
 
-La solució està en [Solució.md](Solucio.md)
+La solució està en [Solucio.md](Solucio.md)
 
 [Tornar a la pàgina principal](../README.md)
