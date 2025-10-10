@@ -30,6 +30,20 @@ Ara utilitzarem la comanda passwd miquel per canviar la contrasenya de l’usuar
 Una vegada canviat la contrasenya reinciciarem la maquina y al inciciar sesio posarem la contrasenya feta
 
 ![Iniciar sesio](img/image7.png) ![Escritori de Zorin](img/image8.png)
+## RECERCA DE FORTIFICACIÓ GRUB
+### Posar contrasenya
+Es pot fer que GRUB demani contrasenya abans de canviar coses de l’arrencada. Es genera un codi de la contrasenya amb grub-mkpasswd-pbkdf2 i es posa al fitxer /etc/grub.d/40_custom. Després s’actualitza GRUB amb sudo update-grub.
+
+### Limitar canvis
+Només l’usuari amb contrasenya pot editar el menú, iniciar en mode recuperació o canviar sistemes operatius. Així ningú més pot tocar l’arrencada.
+
+### Consells de seguretat
+
+- Amaga el menú GRUB si no el necessites.
+
+- Posa contrasenya a la BIOS/UEFI perquè ningú no pugui canviar l’arrencada.
+
+- Revisa de tant en tant que el GRUB no s’hagi modificat sense permís.
 
 ## FORTIFICAR L'ACCES AL GRUB
 
