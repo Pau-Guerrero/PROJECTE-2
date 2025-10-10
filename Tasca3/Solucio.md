@@ -32,3 +32,22 @@ una vegada canviat la contrasenya reinciciarem la maquina y al inciciar sesio po
 ![Iniciar sesio](img/image7.png) ![Escritori de Zorin](img/image8.png)
 
 ### FORTIFICAR L'ACCES AL GRUB
+
+Ara posem la comanda de “grub-mkpasswd-pbdf2” per generar el hash de la contrasenya
+
+![Comanda per generar el hash de la contrasenya](img/image10.png)
+
+Per reforçar l’accés al GRUB, escriurem la comanda: sudo nano /etc/grub.d/40_custom.
+
+![Comanda per entrar a l'arxiu](img/image9.png)
+
+
+En executar aquesta comanda s’obrirà la pantalla on introduirem aquestes dues línies. 
+set superusers="miquel"
+password_pbkdf2 miquel hash_de_la_contrasenya
+
+![Codi que canvia el arxiu](img/image11.png)
+
+I després, per actualitzar el GRUB, escriurem sudo update-grub.
+
+![Comanda per actualitzar el GRUB](img/image12.png)
