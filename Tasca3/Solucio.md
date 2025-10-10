@@ -27,7 +27,7 @@ Ara utilitzarem la comanda passwd miquel per canviar la contrasenya de l’usuar
 
 ![Comanda per canviar la contrasenya](img/image6.png)
 
-una vegada canviat la contrasenya reinciciarem la maquina y al inciciar sesio posarem la contrasenya feta
+Una vegada canviat la contrasenya reinciciarem la maquina y al inciciar sesio posarem la contrasenya feta
 
 ![Iniciar sesio](img/image7.png) ![Escritori de Zorin](img/image8.png)
 
