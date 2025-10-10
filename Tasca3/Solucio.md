@@ -1,9 +1,12 @@
 # GUIA T03
 
+### INSTAL.LACIÓ DISC DUR
 Primer de tot, he instal·lat el disc dur a la màquina virtual.
 
 ![Configuracio e instal.lacio del disc dur](img/image1.png)
 
+
+### CANVIAR LA CONTRASENYA
 En engegar la màquina, premem el botó Shift i s’obrirà aquest menú. Després, triem la segona opció: “Advanced options for Zorin”.
 
 ![Primer menu de zorin](img/image2.png)
@@ -24,6 +27,8 @@ Ara utilitzarem la comanda passwd miquel per canviar la contrasenya de l’usuar
 
 ![Comanda per canviar la contrasenya](img/image6.png)
 
-una vegada canviat lña contrasenya reinciciarem la maquina y al inciciar sesio posarem la contrasenya feta
+una vegada canviat la contrasenya reinciciarem la maquina y al inciciar sesio posarem la contrasenya feta
 
 ![Iniciar sesio](img/image7.png) ![Escritori de Zorin](img/image8.png)
+
+### FORTIFICAR L'ACCES AL GRUB
