@@ -32,7 +32,7 @@ Una vegada canviat la contrasenya reinciciarem la maquina y al inciciar sesio po
 ![Iniciar sesio](img/image7.png) ![Escritori de Zorin](img/image8.png)
 ## RECERCA DE FORTIFICACIÓ GRUB
 ### 1. Posar contrasenya
-Per evitar que qualsevol pugui modificar l’arrencada, es pot configurar GRUB perquè demani contrasenya. Primer es genera un codi segur amb `grub-mkpasswd-pbkdf2`. Aquest codi es posa al fitxer `/etc/grub.d/40_custom` amb la línia `password_pbkdf2 usuari hash_generat`. Després cal actualitzar GRUB amb `sudo update-grub`. Així, només els usuaris autoritzats podran fer canvis.
+Per evitar que qualsevol pugui modificar l’arrencada, es pot configurar GRUB perquè demani contrasenya. Primer es genera un codi segur amb **grub-mkpasswd-pbkdf2**. Aquest codi es posa al fitxer `/etc/grub.d/40_custom` amb la línia `password_pbkdf2 usuari hash_generat`. Després cal actualitzar GRUB amb `sudo update-grub`. Així, només els usuaris autoritzats podran fer canvis.
 
 ### 2. Limitar canvis del menú
 Només l’usuari amb contrasenya podrà editar el menú de GRUB, iniciar en mode recuperació o triar altres sistemes operatius. Això protegeix el sistema d’entrades no autoritzades i evita que algú pugui accedir a informació sensible o modificar fitxers importants des del mode recuperació.
