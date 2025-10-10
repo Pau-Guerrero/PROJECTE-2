@@ -6,7 +6,7 @@ Primer de tot, he instal·lat el disc dur a la màquina virtual.
 ![Configuracio e instal.lacio del disc dur](img/image1.png)
 
 
-### CANVIAR LA CONTRASENYA
+## CANVIAR LA CONTRASENYA
 En engegar la màquina, premem el botó Shift i s’obrirà aquest menú. Després, triem la segona opció: “Advanced options for Zorin”.
 
 ![Primer menu de zorin](img/image2.png)
@@ -31,7 +31,7 @@ una vegada canviat la contrasenya reinciciarem la maquina y al inciciar sesio po
 
 ![Iniciar sesio](img/image7.png) ![Escritori de Zorin](img/image8.png)
 
-### FORTIFICAR L'ACCES AL GRUB
+## FORTIFICAR L'ACCES AL GRUB
 
 Ara posem la comanda de “grub-mkpasswd-pbdf2” per generar el hash de la contrasenya
 
