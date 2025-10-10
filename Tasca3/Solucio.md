@@ -11,3 +11,19 @@ En engegar la màquina, premem el botó Shift i s’obrirà aquest menú. Despr�
 Ara s’obrirà aquest menú, on seleccionarem la segona opció: “Zorin, with Linux 6.8.0-85-generic (recovery mode)”.
 
 ![Segona menu de zorin](img/image3.png)
+
+Ara s’obrirà aquest menú i triarem l’opció que diu “root”.
+
+![Menu de root](img/image4.png)
+
+Ara posarem “mount -rw -o remount /” per poder canviar la contrasenya.
+
+![Primera comanda de linux](img/image5.png)
+
+Ara utilitzarem la comanda passwd miquel per canviar la contrasenya de l’usuari miquel.
+
+![Comanda per canviar la contrasenya](img/image6.png)
+
+una vegada canviat lña contrasenya reinciciarem la maquina y al inciciar sesio posarem la contrasenya feta
+
+![Iniciar sesio](img/image7.png)
