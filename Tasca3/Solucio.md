@@ -45,9 +45,9 @@ Només l’usuari amb contrasenya podrà editar el menú de GRUB, iniciar en mod
 
 ### FONTS D'INFORMACIÓ
 - [Geekland.eu](https://geekland.eu/proteger-el-grub-con-contrasena/?)
-- [ArchWiki](https://wiki.archlinux.org)
-- [ArchWiki Tips and Tricks](https://wiki.archlinux.org)
-- [Debian Blog](https://usuariodebian.blogspot.com)
+- [ArchWiki](https://wiki.archlinux.org/title/GRUB_%28Espa%C3%B1ol%29?)
+- [ArchWiki Tips and Tricks](https://wiki.archlinux.org/title/GRUB_%28Espa%C3%B1ol%29/Tips_and_tricks_%28Espa%C3%B1ol%29?)
+- [Debian Blog](https://usuariodebian.blogspot.com/2024/09/grub-con-contrasena-grub-212-5.html?)
 
 
 ## FORTIFICAR L'ACCES AL GRUB
