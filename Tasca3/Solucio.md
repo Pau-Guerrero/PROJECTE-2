@@ -31,19 +31,18 @@ Una vegada canviat la contrasenya reinciciarem la maquina y al inciciar sesio po
 
 ![Iniciar sesio](img/image7.png) ![Escritori de Zorin](img/image8.png)
 ## RECERCA DE FORTIFICACIÓ GRUB
-### Posar contrasenya
-Es pot fer que GRUB demani contrasenya abans de canviar coses de l’arrencada. Es genera un codi de la contrasenya amb grub-mkpasswd-pbkdf2 i es posa al fitxer /etc/grub.d/40_custom. Després s’actualitza GRUB amb sudo update-grub.
+### 1. Posar contrasenya
+Per evitar que qualsevol pugui modificar l’arrencada, es pot configurar GRUB perquè demani contrasenya. Primer es genera un codi segur amb `grub-mkpasswd-pbkdf2`. Aquest codi es posa al fitxer `/etc/grub.d/40_custom` amb la línia `password_pbkdf2 usuari hash_generat`. Després cal actualitzar GRUB amb `sudo update-grub`. Així, només els usuaris autoritzats podran fer canvis.
 
-### Limitar canvis
-Només l’usuari amb contrasenya pot editar el menú, iniciar en mode recuperació o canviar sistemes operatius. Així ningú més pot tocar l’arrencada.
+### 2. Limitar canvis del menú
+Només l’usuari amb contrasenya podrà editar el menú de GRUB, iniciar en mode recuperació o triar altres sistemes operatius. Això protegeix el sistema d’entrades no autoritzades i evita que algú pugui accedir a informació sensible o modificar fitxers importants des del mode recuperació.
 
-### Consells de seguretat
+### 3. Consells de seguretat addicionals
+- Amaga el menú GRUB configurant `GRUB_TIMEOUT_STYLE=hidden` si no necessites veure’l cada cop que arrenca el sistema.  
+- Posa contrasenya a la BIOS o UEFI per protegir tot el procés d’arrencada.  
+- Revisa periòdicament la configuració del GRUB per assegurar-te que no hi ha hagut modificacions no autoritzades.  
+- Assegura’t que la màquina virtual o el PC físic estigui protegida amb usuari i contrasenya, especialment si altres persones poden accedir-hi.
 
-- Amaga el menú GRUB si no el necessites.
-
-- Posa contrasenya a la BIOS/UEFI perquè ningú no pugui canviar l’arrencada.
-
-- Revisa de tant en tant que el GRUB no s’hagi modificat sense permís.
 
 ## FORTIFICAR L'ACCES AL GRUB
 
