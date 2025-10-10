@@ -44,7 +44,7 @@ Només l’usuari amb contrasenya podrà editar el menú de GRUB, iniciar en mod
 - Assegura’t que la màquina virtual o el PC físic estigui protegida amb usuari i contrasenya, especialment si altres persones poden accedir-hi.
 
 ### FONTS D'INFORMACIÓ
-- [Geekland.eu](https://geekland.eu)
+- [Geekland.eu]([https://geekland.eu](https://geekland.eu/proteger-el-grub-con-contrasena/?utm))
 - [ArchWiki](https://wiki.archlinux.org)
 - [ArchWiki Tips and Tricks](https://wiki.archlinux.org)
 - [Debian Blog](https://usuariodebian.blogspot.com)
