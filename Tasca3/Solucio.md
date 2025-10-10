@@ -1,6 +1,6 @@
 # GUIA T03
 
-### INSTAL.LACIÓ DISC DUR
+## INSTAL.LACIÓ DISC DUR
 Primer de tot, he instal·lat el disc dur a la màquina virtual.
 
 ![Configuracio e instal.lacio del disc dur](img/image1.png)
