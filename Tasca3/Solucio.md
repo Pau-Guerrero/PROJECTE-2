@@ -1,10 +1,18 @@
 # GUIA T03
 
 ## INSTAL.LACIÓ DISC DUR
-Primer de tot, he instal·lat el disc dur a la màquina virtual.
+Primer de tot, s’ha d’instal·lar el disc dur. Per fer això, anirem a Paràmetres i després a Emmagatzematge.
 
 ![Configuracio e instal.lacio del disc dur](img/image1.png)
 
+Un cop allà, farem clic a la icona del disc dur a la part inferior dreta. Apareixeran dues opcions, i hem d’escollir la que diu Disc dur.
+![Configuracio e instal.lacio del disc dur](img/image13.png)
+
+A continuació, seleccionarem l’opció Afegir per incorporar el disc dur proporcionat.
+![Configuracio e instal.lacio del disc dur](img/image14.png)
+
+Finalment, triem el disc dur proporcionat i fem clic a Obrir.
+![Configuracio e instal.lacio del disc dur](img/image15.png)
 
 ## CANVIAR LA CONTRASENYA
 En engegar la màquina, premem el botó Shift i s’obrirà aquest menú. Després, triem la segona opció: “Advanced options for Zorin”.
